@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/subject_s.gif" width="500">
+  <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/subject_s.gif" width="400">
 </p>
 
 # BrainTransGAN: Decoding individual differences of brain dynamics in Alzheimer’s Disease by transferring generative adversarial networks
