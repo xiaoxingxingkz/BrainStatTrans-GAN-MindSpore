@@ -2,7 +2,6 @@
 <p align="center">
   <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/subject1.gif" width="200">
 </p>
-
 <p align="center">
   <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/subject2.gif" width="200">
 </p>
