@@ -7,3 +7,10 @@ Deep learning has been widely investigated in brain image computing and analysis
 <p align="center">
   <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/F1.png" width="700">
 </p>
+
+## Prerequisites
+
+* Linux
+* Python3
+* PyTorch 
+* CPU or NVIDIA GPU + CUDA CuDNN
