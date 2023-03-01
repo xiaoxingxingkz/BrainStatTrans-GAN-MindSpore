@@ -21,7 +21,7 @@ Deep learning has been widely investigated in brain image computing and analysis
 * CPU or NVIDIA GPU + CUDA CuDNN
 
 ## Implementation details
-Our BrainStatTrans-GAN was implemented with python 3.7.4 in the Pytorch framework. All experiments were finished on the GPU of NVIDIA GeForce RTX3090 with Ubuntu system. We used ANDI-1 dataset as the training set and stacked the ADNI-2, AIBL, and OASIS datasets as the testing set. 
+Our BrainStatTrans-GAN was implemented with python 3.7.4 in the MindSpore framework. All experiments were finished on the GPU of NVIDIA GeForce RTX3090 with Ubuntu system. We used ANDI-1 dataset as the training set and stacked the ADNI-2, AIBL, and OASIS datasets as the testing set. 
 
 
 At phase 1, we only input the healthy images (i.e., NC images). Adam optimizer was used with the batch size of 8. The learning rates of the generator and discriminator were set to 1e-4 and 4e-4, respectively. For the generator, we introduced a set of coefficients to balance the training process. 
