@@ -16,8 +16,8 @@ Deep learning has been widely investigated in brain image computing and analysis
 ## Prerequisites
 
 * Linux
-* Python3
-* MindSpore
+* Python3.7
+* MindSpore 2.0.0-alpha
 * CPU or NVIDIA GPU + CUDA CuDNN
 
 ## Implementation details
