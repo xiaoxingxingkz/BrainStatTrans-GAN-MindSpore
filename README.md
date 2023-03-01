@@ -17,7 +17,7 @@ Deep learning has been widely investigated in brain image computing and analysis
 
 * Linux
 * Python3
-* PyTorch 
+* MindSpore
 * CPU or NVIDIA GPU + CUDA CuDNN
 
 ## Implementation details
