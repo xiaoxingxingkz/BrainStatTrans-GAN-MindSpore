@@ -1,18 +1,12 @@
 
-<p align="center">
-  <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/subject_s.gif" width="400">
-</p>
+
 
 # Multimodal Transformer Network for Incomplete Image Generation and Diagnosis of Alzheimer’s Disease
 
 ## Abstract
 
-Deep learning has been widely investigated in brain image computing and analysis for disease diagnosis. Most of existing methods build the deep learning models to learn the features from brain images, followed by group analysis to classify diseases. It is still challenging to model the individual brain dynamics in disease for interpretable imaging and precision medicine. In this paper, we propose a generative model based on brain status transferring generative adversarial network (BrainStatTrans-GAN) to decode the individual differences of brain dynamics in Alzheimer’s Disease. The BrainStatTrans-GAN consists of 3 components which are generator, discriminator, and status discriminator. First, a generative adversarial network with generator and discriminator is built to generate the heathy brain images. Then, a status discriminator is added to the generator to produce the heathy brain images from the disease. Finally, the differences between the generated and real images are computed to decode the brain dynamics, which can be used for disease diagnosis and interpretation of brain changes. Compared to the existing group analysis, the proposed method can model the individualized brain dynamics in Alzheimer’s Disease which can facilitate the disease diagnosis and interpretation. Interpretable experiments on three datasets with 1739 subjects demonstrated that our BrainTransGAN can be used as a tool with superior properties for reconstructing healthy images and exploring whole brain dynamics. 
+Benefiting from complementary information, multimodal brain imaging analysis has distinct advantages over single-modal methods for diagnosis of neurodegenerative diseases such as Alzheimer’s disease. However, multi-modal brain images are often incomplete with missing data in clinical prac-tice due to various issues such as motion, medical costs, and scanner availa-bility. Most existing methods attempted to build machine learning models to directly estimate the missing images. However, since brain images are of high dimension, accurate and efficient estimation of missing data is quite challenging, and not all voxels in the brain images are associated with the disease. In this paper, we propose a multimodal feature-based transformer to impute multimodal brain features with missing data for diagnosis of neuro-degenerative disease. The proposed method consists of a feature regression subnetwork and a multimodal fusion subnetwork based on transformer, for completion of the features of missing data and also multimodal diagnosis of disease. Different from previous methods for generation of missing images, our method imputes high-level and disease-related features for multimodal classification. Experiments on ADNI database with 1,364 subjects show bet-ter performance of our method over the state-of-the-art methods in disease diagnosis with missing multimodal data.. 
 
-## Overview
-<p align="center">
-  <img src="https://github.com/xiaoxingxingkz/BrainTransGAN/blob/main/img/F1.png" width="700">
-</p>
 
 ## Prerequisites
 
