@@ -1,19 +1,18 @@
 
-import mindspore.context as context
+from mindspore import context
 # 设置  mindspore下的 GPU环境
 context.set_context(device_id=1, device_target="GPU")
 
 import mindspore as ms
 import numpy as np
 import mindspore.dataset as ds
-import mindspore.dataset.vision as vision
 from mindspore import nn, ops
 import os
 import nibabel as nib
 
-from mindspore.common.tensor import Tensor
 
-dataset_dir= "./Dataset" # 数据集根目录
+
+dataset_dir= "/media/sdd/gaoxingyu/Project2/Dataset" # 数据集根目录
 train_batch_size = 4 # 批量大小
 test_batch_size = 1
 #image_size = [76, 94, 76] # 训练图像空间大小
@@ -147,7 +146,7 @@ def _model(pretrained: bool = False):
 ###############################################################################################################
 import mindspore as ms
 # ms.set_context(device_target='GPU')
-# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # 定义网络，此处不采用预训练，即将pretrained设置为False
 MindSpore_Model = _model(pretrained=False)
